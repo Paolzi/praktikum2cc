@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE_NAME = 'Syaidan/simple-app'
+    IMAGE_NAME = 'syaidan/simple-app'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
